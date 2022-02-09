@@ -60,8 +60,8 @@ class MainPage extends React.Component {
                 {this.state.isLoading
                     ? <Loader />
                     : <Container fluid >
-                        <Row className='nesto'>
-                            <Col className='bodyT' lg={9}>
+                        <Row >
+                            <Col lg={9}>
                                 <SearchBar searchHeroes={this.searchHeroes} />
                                 <HeroCards heroes={this.state.heroes} addToMyTeam={this.addToMyTeam} />
                             </Col>
