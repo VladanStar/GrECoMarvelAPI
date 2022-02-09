@@ -1,0 +1,22 @@
+.back-to-homepage:hover {
+    color: red;
+    transform: scale(1.2);
+    background-color: blueviolet;
+  }
+  
+  .back-to-homepage {
+    transition: transform 0.2s;
+  }
+  .button {
+   position: relative;
+   left:-200px;
+   padding: 10px;
+   border-radius: 5px;
+   background-color: aqua;
+
+  }
+  .button:hover {
+    background-color: blueviolet;
+    color: blue;
+    font-weight: bold;
+  }
