@@ -29,6 +29,7 @@ class MainPage extends React.Component {
     }
 
     searchHeroes = (text) => {
+     
         heroService.searchCharacters(text)
             .then(response => this.setState({ heroes: response }))
     }
